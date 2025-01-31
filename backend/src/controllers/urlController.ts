@@ -33,7 +33,7 @@ export const shortenUrl = async (req: Request, res: Response) => {
 
     // Generate short code
     const shortCode = customShortCode || shortid.generate();
-    const shortUrl = `http://localhost:5000/${shortCode}`;
+    const shortUrl = `https://url-shortener-ds5q.onrender.com/${shortCode}`;
 
     // Save to database
     const url = new Url({

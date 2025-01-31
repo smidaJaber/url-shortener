@@ -14,6 +14,16 @@ export default defineConfig({
   plugins: [react(),tailwindcss()],
   test :{
     environment : "jsdom"
+  },
+  server : {
+    proxy : {
+      "/api" :{
+        target : "https://url-shortener-ds5q.onrender.com",
+        changeOrigin: true,
+        secure:false,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      }
+    }
   }
 
 })

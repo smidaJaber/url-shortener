@@ -14,7 +14,7 @@ interface ShortenUrlError {
 }
 
 const shortenUrl = async (data: ShortenUrlRequest): Promise<ShortenUrlResponse> => {
-  const response = await axios.post<ShortenUrlResponse>('http://localhost:5000/shorten', data); 
+  const response = await axios.post<ShortenUrlResponse>(`https://url-shortener-ds5q.onrender.com/shorten`, data); 
   return response.data;
 };
 

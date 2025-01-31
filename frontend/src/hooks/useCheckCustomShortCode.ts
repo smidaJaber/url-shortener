@@ -7,7 +7,7 @@ interface CheckCustomShortCodeResponse {
 
 const checkCustomShortCode = async (customShortCode: string) => {
   const response = await axios.get<CheckCustomShortCodeResponse>(
-    `http://localhost:5000/check/${customShortCode}`
+    `https://url-shortener-ds5q.onrender.com/check/${customShortCode}`
   );
   return response.data;
 };
