@@ -25,7 +25,7 @@ curl -X POST http://localhost:5000/shorten \
   -d '{"longUrl": "https://www.arcube.org/demo", "customShortCode":"ARC"}'
 ```
 
-#### Check custom short code
+#### Check availability of the custom short code
 
 ```bash
 curl -X GET http://localhost:5000/check/arc

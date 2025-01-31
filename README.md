@@ -2,11 +2,11 @@
 
 ### Backend
 
-- [**`src/controllers/`**](backend/src/controllers/): Logic for handling API requests
-- [**`src/models/`**](backend/src/models/): MongoDB schema for URLs
-- [**`src/routes/`**](backend/src/routes/): API routes
+- [**`src/controllers/`**](backend/src/controllers/): Contains the Logic for handling API requests
+- [**`src/models/`**](backend/src/models/): Defines MongoDB schema for URLs
+- [**`src/routes/`**](backend/src/routes/): Defines the API routes
 - [**`src/middlewares/`**](backend/src/middlewares/): Middleware functions (e.g., rate limiting)
-- [**`src/utils/`**](backend/src/utils/): Utility functions
+- [**`src/utils/`**](backend/src/utils/): Contains utility functions
 - [**`src/server.ts`**](backend/src/server.ts): Entry point for the backend server
 - [**`src/config.json`**](backend/src/config/config.json): Config file (e.g., rate limit value, time window)
 
@@ -15,8 +15,8 @@
 - [**`src/components/`**](frontend/src/components/): Contains React components
 - [**`src/components/__tests__`**](frontend/src/components/__tests__/): Contains Tests for React components
 - [**`src/hooks/`**](frontend/src/hooks/): Custom React hooks
-- [**`src/utils/`**](frontend/src/utils/): Utility functions
-- [**`src/App.tsx`**](frontend/src/App.tsx): Main app component
+- [**`src/utils/`**](frontend/src/utils/): Contains utility functions
+- [**`src/App.tsx`**](frontend/src/App.tsx): Main application component
 - [**`src/main.tsx`**](frontend/src/main.tsx): Entry point for the frontend
 
 ## Setup instructions
