@@ -1,0 +1,7 @@
+{
+	"rateLimit": {
+		"windowMs": 600000,
+		"maxRequests": 20,
+		"message": "Your IP is restricted for exceeding the rate limit."
+	}
+}
