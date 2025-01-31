@@ -6,8 +6,10 @@
 		"test": "tests"
 	},
 	"scripts": {
+		"start": "node dist/server.js",
+		"dev": "ts-node-dev src/server.ts",
 		"test": "jest --detectOpenHandles --forceExit",
-		"dev": "ts-node-dev src/server.ts"
+		"build": "tsc && cp -r src/config dist/config"
 	},
 	"keywords": [],
 	"author": "",
